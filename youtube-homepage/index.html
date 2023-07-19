@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dhanu Sir">
+    <!-- Visit https://dhanusir.com -->
+    <title>Dhanu Sir Web Project: YouTube Home page</title>
+
+    <link
+      rel="icon"
+      href="images/favicon.ico"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google material icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,300,0,200" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- logo section -->
+      <div class="header__logo__wrapper">
+        <span class="material-symbols-rounded cursor--pointer mb-hide">menu</span>
+        <img src="images/youtube.png" class="header__logo cursor--pointer">
+      </div>
+
+      <!-- search section -->
+      <div class="search__wrapper mb-hide">
+        <form action="" class="search__form">
+          <input type="text" class="search__input" placeholder="Search" />
+          <button class="search__input__lens">
+            <span class="material-symbols-rounded search__input__lens__icon cursor--pointer">search</span>
+          </button>
+        </form>
+        <div class="search__voice__btn">
+          <span class="material-symbols-rounded search__voice__btn__icon cursor--pointer">mic</span>
+        </div>
+      </div>
+
+      <!-- action section -->
+      <div class="action__icons">
+        <span class="material-symbols-rounded action__icons__video__create cursor--pointer mb-hide">video_call</span>
+        <span class="material-symbols-rounded action__icons__video__create cursor--pointer mb-hide">apps</span>
+        <span class="material-symbols-rounded action__icons__notifications cursor--pointer mb-hide">notifications</span>
+        <span class="material-symbols-rounded action__icons__lens__icon cursor--pointer">search</span>
+        <img src="images/dhanusir.png" class="action__icons__profile__img cursor--pointer" alt="Dhanu Sir profile">
+      </div>
+    </header>
+
+    <main class="body__content">
+      <div class="body__left__content mb-hide">
+        <!-- sidebar -->
+        <div class="sidebar">
+          <div class="sidebar__wrapper">
+            <div class="sidebar__item active">
+              <span class="material-symbols-rounded sidebar__item__icon">home</span>
+              <span class="sidebar__item__title">Home</span>
+            </div>
+            <div class="sidebar__item">
+              <img src="images/short.png" class="sidebar__item__img" alt="Short">
+              <span class="sidebar__item__title">Shorts</span>
+            </div>
+            <div class="sidebar__item">
+              <span class="material-symbols-rounded sidebar__item__icon">subscriptions</span>
+              <span class="sidebar__item__title">Subscriptions</span>
+            </div>
+            <div class="sidebar__wrapper__divider"></div>
+            <div class="sidebar__item">
+              <span class="material-symbols-rounded sidebar__item__icon">video_library</span>
+              <span class="sidebar__item__title">Library</span>
+            </div>
+            <div class="sidebar__item">
+              <span class="material-symbols-rounded sidebar__item__icon">history</span>
+              <span class="sidebar__item__title">History</span>
+            </div>
+            <div class="sidebar__item">
+              <span class="material-symbols-rounded sidebar__item__icon">slideshow</span>
+              <span class="sidebar__item__title">Your videos</span>
+            </div>
+            <div class="sidebar__item">
+              <span class="material-symbols-rounded sidebar__item__icon">schedule</span>
+              <span class="sidebar__item__title">Watch Later</span>
+            </div>
+            <div class="sidebar__item">
+              <span class="material-symbols-rounded sidebar__item__icon">thumb_up</span>
+              <span class="sidebar__item__title">Liked videos</span>
+            </div>
+            <div class="sidebar__item">
+              <span class="material-symbols-rounded sidebar__item__icon">expand_more</span>
+              <span class="sidebar__item__title">Show more</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="body__right__content">
+        <!-- chips wrapper -->
+        <div class="chips__wrapper">
+          <span class="chips__item chips__all">All</span>
+          <span class="chips__item">Music</span>
+          <span class="chips__item">ChatGPT</span>
+          <span class="chips__item">Thoughts</span>
+          <span class="chips__item">AI</span>
+          <span class="chips__item">Wealth</span>
+          <span class="chips__item">Podcasts</span>
+          <span class="chips__item">DevOps</span>
+          <span class="chips__item">Cloud Computing</span>
+          <span class="chips__item">Self Help</span>
+          <span class="chips__item">Meditation</span>
+          <span class="chips__item">Gaming</span>
+          <span class="chips__item">Comdey</span>
+          <span class="chips__item">Bollywood Music</span>
+          <span class="chips__item">Bicoins</span>
+          <span class="chips__item">Computer Programming</span>
+        </div>
+
+        <!-- videos wrapper -->
+        <div class="videos__wrapper">
+          <div class="videos__featured__container">
+            <!-- video 1 -->
+            <div class="video__item">
+              <img src="images/thumb1.jpg" class="video__item__thumb" alt="Video 1">
+              <div class="video__item__details">
+                <a href="#" class="video__item__avatar__wrapper">
+                  <img src="images/dhanusir.png" class="video__item__avatar__img" alt="">
+                </a>
+                <div class="video__item__meta">
+                  <h3 class="video__item__meta__title">Basic image gallery using HTML, CSS only</h3>
+                  <a href="#" class="video__item__meta__user">Dhanu Sir</a>
+                  <span class="video__item__meta__views">850 views <span class="dot">&#x2022;</span> 5 days ago </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- video 2 -->
+            <div class="video__item">
+              <img src="images/thumb2.jpg" class="video__item__thumb" alt="Video 1">
+              <div class="video__item__details">
+                <a href="#" class="video__item__avatar__wrapper">
+                  <img src="images/clodyuga.jpg" class="video__item__avatar__img" alt="">
+                </a>
+                <div class="video__item__meta">
+                  <h3 class="video__item__meta__title">What is Cloud Native and CNCF?</h3>
+                  <a href="#" class="video__item__meta__user">CloudYuga</a>
+                  <span class="video__item__meta__views">2550 views <span class="dot">&#x2022;</span> 10 days ago </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- video 3 -->
+            <div class="video__item">
+              <img src="images/thumb3.jpg" class="video__item__thumb" alt="Video 1">
+              <div class="video__item__details">
+                <a href="#" class="video__item__avatar__wrapper">
+                  <img src="images/freecodecamp.jpg" class="video__item__avatar__img" alt="">
+                </a>
+                <div class="video__item__meta">
+                  <h3 class="video__item__meta__title">Learn JavaScript - Full Course for Beginners</h3>
+                  <a href="#" class="video__item__meta__user">freeCodeCamp.org</a>
+                  <span class="video__item__meta__views">15M views <span class="dot">&#x2022;</span> 4 years ago </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- video 4 -->
+            <div class="video__item">
+              <img src="images/thumb4.jpg" class="video__item__thumb" alt="Video 1">
+              <div class="video__item__details">
+                <a href="#" class="video__item__avatar__wrapper">
+                  <img src="images/nanatech.jpg" class="video__item__avatar__img" alt="">
+                </a>
+                <div class="video__item__meta">
+                  <h3 class="video__item__meta__title">What is Platform Engineering and how it fits into DevOps and Cloud world</h3>
+                  <a href="#" class="video__item__meta__user">TechWorld with Nana</a>
+                  <span class="video__item__meta__views">75K views <span class="dot">&#x2022;</span> 1 month ago </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- video 5 -->
+            <div class="video__item">
+              <img src="images/thumb5.jpg" class="video__item__thumb" alt="Video 1">
+              <div class="video__item__details">
+                <a href="#" class="video__item__avatar__wrapper">
+                  <img src="images/github.png" class="video__item__avatar__img" alt="">
+                </a>
+                <div class="video__item__meta">
+                  <h3 class="video__item__meta__title">What is GitHub?</h3>
+                  <a href="#" class="video__item__meta__user">GitHub</a>
+                  <span class="video__item__meta__views">692K views <span class="dot">&#x2022;</span> 8 months </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- video 6 -->
+            <div class="video__item">
+              <img src="images/thumb6.jpg" class="video__item__thumb" alt="Video 1">
+              <div class="video__item__details">
+                <a href="#" class="video__item__avatar__wrapper">
+                  <img src="images/sandeep.jpg" class="video__item__avatar__img" alt="">
+                </a>
+                <div class="video__item__meta">
+                  <h3 class="video__item__meta__title">Stop Wasting Your Time | Sandeep Maheshwari | Every Student Must Watch This Video | Hindi</h3>
+                  <a href="#" class="video__item__meta__user">Dhanu Sir</a>
+                  <span class="video__item__meta__views">5.3M views <span class="dot">&#x2022;</span> 1 month ago </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- video 7 -->
+            <div class="video__item">
+              <img src="images/thumb7.jpg" class="video__item__thumb" alt="Video 1">
+              <div class="video__item__details">
+                <a href="#" class="video__item__avatar__wrapper">
+                  <img src="images/dhanusir.png" class="video__item__avatar__img" alt="">
+                </a>
+                <div class="video__item__meta">
+                  <h3 class="video__item__meta__title">Basic image gallery using HTML, CSS only</h3>
+                  <a href="#" class="video__item__meta__user">Dhanu Sir</a>
+                  <span class="video__item__meta__views">850 views <span class="dot">&#x2022;</span> 5 days ago </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- video 8 -->
+            <div class="video__item">
+              <img src="images/thumb8.jpg" class="video__item__thumb" alt="Video 1">
+              <div class="video__item__details">
+                <a href="#" class="video__item__avatar__wrapper">
+                  <img src="images/freecodecamp.jpg" class="video__item__avatar__img" alt="">
+                </a>
+                <div class="video__item__meta">
+                  <h3 class="video__item__meta__title">Introduction to Linux - Full Course for Beginners</h3>
+                  <a href="#" class="video__item__meta__user">freeCodeCamp.org</a>
+                  <span class="video__item__meta__views">513K views <span class="dot">&#x2022;</span> 4 months ago </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+        <!-- shorts wrapper -->
+      </div>
+    </main>
+  </body>
+</html>
+
+<div class="checkbox-wrapper-6">
+  <input class="tgl tgl-light" id="cb1-6" type="checkbox"/>
+  <label class="tgl-btn" for="cb1-6">
+</div>
+
+<style>
+  .checkbox-wrapper-6 .tgl {
+    display: none;
+  }
+  .checkbox-wrapper-6 .tgl,
+  .checkbox-wrapper-6 .tgl:after,
+  .checkbox-wrapper-6 .tgl:before,
+  .checkbox-wrapper-6 .tgl *,
+  .checkbox-wrapper-6 .tgl *:after,
+  .checkbox-wrapper-6 .tgl *:before,
+  .checkbox-wrapper-6 .tgl + .tgl-btn {
+    box-sizing: border-box;
+  }
+  .checkbox-wrapper-6 .tgl::-moz-selection,
+  .checkbox-wrapper-6 .tgl:after::-moz-selection,
+  .checkbox-wrapper-6 .tgl:before::-moz-selection,
+  .checkbox-wrapper-6 .tgl *::-moz-selection,
+  .checkbox-wrapper-6 .tgl *:after::-moz-selection,
+  .checkbox-wrapper-6 .tgl *:before::-moz-selection,
+  .checkbox-wrapper-6 .tgl + .tgl-btn::-moz-selection,
+  .checkbox-wrapper-6 .tgl::selection,
+  .checkbox-wrapper-6 .tgl:after::selection,
+  .checkbox-wrapper-6 .tgl:before::selection,
+  .checkbox-wrapper-6 .tgl *::selection,
+  .checkbox-wrapper-6 .tgl *:after::selection,
+  .checkbox-wrapper-6 .tgl *:before::selection,
+  .checkbox-wrapper-6 .tgl + .tgl-btn::selection {
+    background: none;
+  }
+  .checkbox-wrapper-6 .tgl + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .checkbox-wrapper-6 .tgl + .tgl-btn:after,
+  .checkbox-wrapper-6 .tgl + .tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+  }
+  .checkbox-wrapper-6 .tgl + .tgl-btn:after {
+    left: 0;
+  }
+  .checkbox-wrapper-6 .tgl + .tgl-btn:before {
+    display: none;
+  }
+  .checkbox-wrapper-6 .tgl:checked + .tgl-btn:after {
+    left: 50%;
+  }
+
+  .checkbox-wrapper-6 .tgl-light + .tgl-btn {
+    background: #f0f0f0;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all 0.4s ease;
+  }
+  .checkbox-wrapper-6 .tgl-light + .tgl-btn:after {
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.2s ease;
+  }
+  .checkbox-wrapper-6 .tgl-light:checked + .tgl-btn {
+    background: #9FD6AE;
+  }
+</style>
