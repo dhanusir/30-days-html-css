@@ -1,0 +1,127 @@
+/* CSS here  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  max-width: 950px;
+  margin: 50px auto;
+  border: 1px solid red;
+}
+
+header {
+  display: flex;
+  gap: 30px;
+}
+.profile__pic__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.profile__pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile__header {
+  display: flex;
+  align-items: center;
+}
+.profile__header__username {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #111;
+  margin-right: 2rem;
+}
+.profile__actions {
+  display: flex;
+}
+.profile__follow__btn, .profile__follow__msg {
+  height: 28px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0 12px;
+  border-radius: 6px;
+  outline: none;
+  border: 0;
+}
+.profile__follow__msg:hover {
+  background-color: #ddd;
+}
+.profile__follow__btn {
+  background-color: rgb(0, 149, 246);
+  color: #fff;
+  margin-right: 8px;
+}
+.profile__follow__btn:hover {
+  background-color: rgb(4, 135, 235);
+}
+.profile__more__btn {
+  margin-left: 1rem;
+}
+.more__btn__dot {
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  margin: 0.5px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.profile__stats {
+  margin: 1.3rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #111;
+  gap: 2rem;
+}
+.profile__stats span {
+  font-weight: 700;
+}
+.profile__stats a {
+  color: #111;
+  text-decoration: none;
+}
+.profile__info {
+  font-size: 14px;
+}
+.profile__info__title {
+  font-size: 14px;
+}
+.profile__info__subtitle {
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+}
+.profile__info__bio__link {
+  color: rgb(0, 55, 107);
+  text-decoration: none;
+}
+.profile__link__wrapper {
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 55, 107);
+}
+.profile__link {
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.profile__followed__by {
+  margin-top: 10px;
+  color: #666;
+  font-size: 13px;
+}
+.profile__followed__by a {
+  color: #111;
+  text-decoration: none;
+}
