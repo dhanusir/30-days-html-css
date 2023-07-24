@@ -10,7 +10,6 @@ body {
 .container {
   max-width: 950px;
   margin: 50px auto;
-  border: 1px solid red;
 }
 
 header {
@@ -124,4 +123,28 @@ header {
 .profile__followed__by a {
   color: #111;
   text-decoration: none;
+}
+
+.highlights__wrapper {
+  margin: 3rem;
+  display: flex;
+  gap: 3rem;
+}
+.highlights__item {
+  height: 83px;
+  width: 83px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.highlights__item__img {
+  height: 77px;
+  width: 77px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: 2px 0 0 2px;
+}
+.highlights__item__label {
+  font-size: 13px;
+  margin-top: 8px;
+  text-align: center;
 }
