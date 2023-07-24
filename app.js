@@ -3,6 +3,7 @@ const projectsWrapper = document.getElementById("projects")
 let projects = [
   { title: "YouTube Home Page", path: "youtube-homepage" },
   { title: "Netflix Home Page", path: "netflix-homepage" },
+  { title: "Instagram Profile", path: "instagram-profile" },
 ]
 
 projects.slice(0)
