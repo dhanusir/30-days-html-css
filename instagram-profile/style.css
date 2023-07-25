@@ -180,6 +180,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  justify-content: center;
 }
 .posts__item {
   position: relative;
@@ -215,4 +216,21 @@ header {
 .overlay__label {
   color: #fff;
   font-weight: 600;
+}
+
+@media screen and (max-width: 520px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .highlights__wrapper {
+    padding: 3rem 1rem;
+    gap: 1rem;
+    width: 100%;
+    overflow: scroll;
+  }
+  .posts__item {
+    width: 120px;
+    height: 120px;
+  }
 }
