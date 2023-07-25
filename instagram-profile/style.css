@@ -126,7 +126,7 @@ header {
 }
 
 .highlights__wrapper {
-  margin: 3rem;
+  padding: 3rem;
   display: flex;
   gap: 3rem;
 }
@@ -147,4 +147,72 @@ header {
   font-size: 13px;
   margin-top: 8px;
   text-align: center;
+}
+
+.highlights__divider {
+  border-bottom: 1px solid #ccc;
+  margin-top: 2rem;
+}
+.content__header {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.content__item {
+  padding: 1rem 0;
+  color: #888;
+}
+.content__item.active {
+  border-top: 1px solid #222;
+  color: #111;
+}
+.content__item__icon {
+  height: 13px;
+  vertical-align: middle;
+}
+.content__posts__label {
+  font-size: 14px;
+  font-weight: 600;
+  color: inherit;
+}
+
+.posts__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.posts__item {
+  position: relative;
+  width: 310px;
+  height: 310px;
+}
+.posts__item__img {
+  width: inherit;
+  height: inherit;
+}
+.posts__item .overlay {
+  display: none;
+}
+.posts__item:hover .overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.2);
+}
+.overlay__content {
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.overlay__icon {
+  vertical-align: middle;
+  height: 20px;
+}
+.overlay__label {
+  color: #fff;
+  font-weight: 600;
 }
