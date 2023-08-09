@@ -3,6 +3,7 @@ const projectsWrapper = document.getElementById("projects")
 let projects = [
   { title: "Facebook Create Post", path: "fb-create-post" },
   { title: "Google Search", path: "google-search" },
+  { title: "Facebook Login", path: "fb-login" },
   { title: "YouTube Home Page", path: "youtube-homepage" },
   { title: "Netflix Home Page", path: "netflix-homepage" },
   { title: "Instagram Profile", path: "instagram-profile" },
