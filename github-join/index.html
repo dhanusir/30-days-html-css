@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dhanu Sir">
+    <!-- Visit https://dhanusir.com -->
+    <title>Dhanu Sir Web Project: GitHub Join Form</title>
+
+    <link
+      rel="icon"
+      href="images/favicon.ico"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <div class="form_wrapper">
+      <div class="form_header">
+        <h3 class="pre_title">
+          Join GitHub
+        </h3>
+        <h1 class="title">
+          First, let's create your user account
+        </h1>
+      </div>
+      <div class="form_body">
+        <div class="form_group">
+          <label for="username" class="form_group_label">Username <span class="form_required">*</span></label>
+          <input type="text" class="form_group_input" id="username">
+        </div>
+        <div class="form_group">
+          <label for="email" class="form_group_label">Email address <span class="form_required">*</span></label>
+          <input type="email" class="form_group_input" id="email">
+        </div>
+        <div class="form_group">
+          <label for="password" class="form_group_label">Password <span class="form_required">*</span></label>
+          <input type="password" class="form_group_input" id="password">
+        </div>
+        <p class="form_password_info">
+          Make sure it's at least 15 characters OR at least 8 characters
+          including a number and a lowercase letter. <a href="#" class="form_link">Learn more.</a>
+        </p>
+        <div class="form_group">
+          <label for="preferences" class="form_group_label">Email preferences</label>
+          <div class="form_checkbox">
+            <label for="preferences" class="form_checkbox_label">
+              <input type="checkbox" class="form_checkbox_input" id="preferences">
+              Send me occasional product updates, announcements, and offers.
+            </label>
+          </div>
+        </div>
+        <div class="action_wrapper">
+          <a href="#" class="create_account_btn">Create account</a>
+        </div>
+        <p class="form_terms">
+          By creating an account, you agree to the <a href="#" class="form_link">Terms of Service</a>.
+          For more information about GitHub's privacy practices, see the
+          <a href="#" class="form_link">GitHub Privacy Statement</a>. We'll occasionally send
+          you account-related emails.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
