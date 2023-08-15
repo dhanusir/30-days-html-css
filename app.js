@@ -3,6 +3,7 @@ const projectsWrapper = document.getElementById("projects")
 let projects = [
   { title: "GitHub Join Form", path: "github-join" },
   { title: "Gmail Sign in", path: "gmail-signin" },
+  { title: "Remembering Steve", path: "remembering-steve" },
   { title: "Facebook Create Post", path: "fb-create-post" },
   { title: "Google Search", path: "google-search" },
   { title: "Facebook Login", path: "fb-login" },
