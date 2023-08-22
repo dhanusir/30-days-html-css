@@ -65,12 +65,19 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  transition: all ease-in-out 0.2s;
+}
+.form_body_btn:hover {
+  background-color: #eee;
 }
 .form_body_btn_icon {
   height: 25px;
 }
 .form_body_btn_text {
   font-size: 18px;
+}
+.blue_btn:hover {
+  background-color: #0e8fe4;
 }
 
 .divider {
@@ -128,4 +135,31 @@ body {
   text-decoration: none;
   color: #777;
   font-size: 18px;
+}
+.footer_link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 520px) {
+  .main {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .right_content {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .form_header_title {
+    font-size: 3rem;
+  }
+  .form_body {
+    width: 100%;
+  }
+  .footer {
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    height: auto;
+    gap: 1rem;
+  }
 }
