@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.main {
+  height: 93vh;
+  width: 100vw;
+  display: flex;
+  gap: 2rem;
+}
+.logo_bg, .left_content, .right_content {
+  height: 100%;
+  width: 100%;
+}
+.left_content {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right_content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.form_container {
+  width: 100%;
+}
+.form_logo {
+  height: 60px;
+}
+.form_header_title {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.form_body {
+  width: 36%;
+}
+
+.form_body_title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.form_body_btn {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 50px;
+  border: 1px solid #888;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.form_body_btn_icon {
+  height: 25px;
+}
+.form_body_btn_text {
+  font-size: 18px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+.divider_text {
+  margin: 0 5px;
+  font-size: 20px;
+}
+.divider_pre_or, .divider_post_or {
+  height: 1px;
+  border-top: 1px solid rgb(239, 243, 244);
+  flex-basis: 140px;
+  margin-top: 5px;
+}
+
+.blue_btn {
+  background-color: #1D9BF0;
+  border: 1px solid #1D9BF0;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.form_terms {
+  margin-top: 10px;
+  color: #666;
+}
+.form_terms_link {
+  color: #246EFF;
+  text-decoration: none;
+}
+
+.form_account_qns {
+  font-size: 20px;
+  margin-top: 3rem;
+}
+.form_sign_in {
+  color: #246EFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  gap: 3rem;
+}
+.footer_link {
+  text-decoration: none;
+  color: #777;
+  font-size: 18px;
+}
